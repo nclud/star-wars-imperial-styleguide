@@ -1,0 +1,23 @@
+<section class="color-section">
+	<h2>Colors</h2>
+	<table>
+		<thead>
+			<tr>
+				<th></th>
+				<th>Hex</th>
+				<th>Name</th>
+			</tr>
+		</thead>
+		<tbody>
+	{% for color in colors %}
+			<tr>
+				<td>
+					<div class="color-swatch" style="background-color: {{ color.hex }};">
+				</td>
+				<td>{{ color.hex }}</td>
+				<td>{{ color.name }}</td>
+			</tr>
+	{% endfor %}
+		</tbody>
+	</table>
+</section>

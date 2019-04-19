@@ -1,0 +1,19 @@
+{
+    "name": "nclud/imperial-styleguide",
+    "description": "A styleguide for the Galactic Empire",
+    "type": "php",
+    "require": {
+        "twig/twig": "~1.0"
+	},
+	"require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": ">=0.4.4",
+        "wp-coding-standards/wpcs": "^2.0",
+        "squizlabs/php_codesniffer": "^3.4"
+    },
+    "authors": [
+        {
+            "name": "Russell Heimlich",
+            "email": "rheimlich@nclud.com"
+        }
+    ]
+}

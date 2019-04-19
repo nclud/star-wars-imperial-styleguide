@@ -1,0 +1,32 @@
+.typography-section {
+	.glyphs,
+	.sizing {
+		font-family: auretech;
+	}
+
+	.glyphs {
+		font-size: rem( 48px );
+		text-align: center;
+		color: $imperial-red;
+	}
+
+	.size10 { font-size: rem( 10px ); }
+	.size11 { font-size: rem( 11px ); }
+	.size12 { font-size: rem( 12px ); }
+	.size13 { font-size: rem( 13px ); }
+	.size14 { font-size: rem( 14px ); }
+	.size16 { font-size: rem( 16px ); }
+	.size18 { font-size: rem( 18px ); }
+	.size20 { font-size: rem( 20px ); }
+	.size24 { font-size: rem( 24px ); }
+	.size30 { font-size: rem( 30px ); }
+	.size36 { font-size: rem( 36px ); }
+	.size48 { font-size: rem( 48px ); }
+	.size60 { font-size: rem( 60px ); }
+	.size72 { font-size: rem( 72px ); }
+	.size90 { font-size: rem( 90px ); }
+
+	td:nth-child(1) {
+		font-family: arial;
+	}
+}
