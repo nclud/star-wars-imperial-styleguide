@@ -1,0 +1,31 @@
+.text-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	max-width: rem( 1024px );
+	margin: rem( 60px ) auto;
+	padding: rem( 8px );
+
+	.section-title {
+		color: $light-imperial-red;
+		text-shadow: 0 0 rem( 6px ) rgba( $light-imperial-red, 0.7 );
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: rem( 28px );
+		width: 45%;
+	}
+
+	.section-content {
+		width: 50%;
+	}
+
+	p {
+		font-size: rem( 18px );
+		font-weight: 600;
+		line-height: 1.5;
+		margin-bottom: rem( 14px );
+		color: $bright-imperial-blue;
+		text-shadow: 0 0 rem( 6px ) rgba( $bright-imperial-blue, 0.7 );
+	}
+}

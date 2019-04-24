@@ -35,6 +35,7 @@ $typography_context = array();
 $typography_section = $twig->render( 'typography-section.twig', $typography_context );
 
 $context = array(
+	'logo'               => get_svg( 'imperial-logo' ),
 	'color_section'      => $color_section,
 	'typography_section' => $typography_section,
 );
