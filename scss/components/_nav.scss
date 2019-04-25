@@ -1,0 +1,49 @@
+.nav {
+    position: relative;
+	margin: rem(60px) auto;
+
+    a {
+        position: absolute;
+        color: $light-imperial-red;
+        top: 50%;
+        left: 50%;
+		text-align: center;
+		margin: rem( 6px ) * -1;
+
+		$translate : 180px;
+		&:nth-of-type(1) {
+			transform: rotate(-90deg) translate($translate) rotate(90deg);
+			margin-left: rem(-15px);
+		}
+
+		&:nth-of-type(2) {
+			transform: rotate(-30deg) translate($translate) rotate(30deg);
+		}
+
+		&:nth-of-type(3) {
+			transform: rotate(30deg) translate($translate) rotate(-30deg);
+		}
+
+		&:nth-of-type(4) {
+			transform: rotate(90deg) translate($translate) rotate(-90deg);
+			margin-lefT: rem( -25px );
+		}
+
+		&:nth-of-type(5) {
+			transform: rotate(165deg) translate(285px) rotate(-165deg);
+		}
+
+		&:nth-of-type(6) {
+			transform: rotate(200deg) translate(270px) rotate(-200deg)
+		}
+    }
+
+    .svg-imperial-logo {
+        font-size: rem(280px);
+        display: block;
+        margin: 0 auto;
+        color: $imperial-red;
+        filter: drop-shadow(0 0 rem(3px) rgba($imperial-red, 0.7));
+    }
+
+}

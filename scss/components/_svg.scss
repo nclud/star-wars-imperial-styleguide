@@ -7,11 +7,3 @@ svg {
 	height: 1em;
 	stroke: currentColor;
 }
-
-.svg-imperial-logo {
-	font-size: rem( 280px );
-	margin: rem( 60px ) auto;
-	display: block;
-	color: $imperial-red;
-	filter: drop-shadow( 0 0 rem( 3px ) rgba( $imperial-red, 0.7 ) );
-}
