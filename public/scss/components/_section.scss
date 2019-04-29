@@ -8,8 +8,9 @@
 	padding: rem( 8px );
 
 	.section-title {
+		@include neon-glow( $light-imperial-red );
+
 		color: $light-imperial-red;
-		text-shadow: 0 0 rem( 6px ) rgba( $light-imperial-red, 0.7 );
 		text-transform: uppercase;
 		font-weight: 600;
 		font-size: rem( 28px );
