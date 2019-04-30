@@ -12,6 +12,7 @@
 		text-align: center;
 		margin: rem( 6px ) * -1;
 
+		font-size: rem(20px);
 		padding: rem(6px) rem(12px);
 
 		&::after {
@@ -43,7 +44,7 @@
 		$translate : 180px;
 		&:nth-of-type(1) {
 			transform: rotate(-90deg) translate($translate) rotate(90deg);
-			margin-left: rem(-15px);
+			margin-left: rem(-35px);
 		}
 
 		&:nth-of-type(2) {
@@ -56,15 +57,15 @@
 
 		&:nth-of-type(4) {
 			transform: rotate(90deg) translate($translate) rotate(-90deg);
-			margin-lefT: rem( -25px );
+			margin-lefT: rem( -45px );
 		}
 
 		&:nth-of-type(5) {
-			transform: rotate(165deg) translate(285px) rotate(-165deg);
+			transform: rotate(170deg) translate(370px) rotate(-170deg);
 		}
 
 		&:nth-of-type(6) {
-			transform: rotate(200deg) translate(270px) rotate(-200deg)
+			transform: rotate(195deg) translate(345px) rotate(-195deg);
 		}
     }
 
