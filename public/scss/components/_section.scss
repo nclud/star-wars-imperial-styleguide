@@ -21,3 +21,15 @@
 		width: 50%;
 	}
 }
+
+@media( max-width: em( 1024px ) ) {
+	.section {
+		display: block;
+		padding: 0 rem( 36px );
+
+		.section-title,
+		.section-content {
+			width: auto;
+		}
+	}
+}
