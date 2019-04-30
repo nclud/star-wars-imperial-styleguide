@@ -12,22 +12,33 @@
 		text-align: center;
 		margin: rem( 6px ) * -1;
 
-		border: rem( 2px ) solid transparent;
 		padding: rem(6px) rem(12px);
 
-		transition: box-shadow 300ms ease-in-out;
+		&::after {
+			content: "";
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			left: 0;
 
-		&:hover,
-		&:focus {
-			border-color: $grid-blue;
+			opacity: 0;
 			box-shadow: 0 0 1px $grid-blue,
 						0 0 2px $grid-blue,
 						0 0 6px $grid-blue,
 
 						inset 0 0 1px $grid-blue,
 						inset 0 0 2px $grid-blue,
-						inset 0 0 6px $grid-blue,
+						inset 0 0 6px $grid-blue;
+			border: rem( 2px ) solid $grid-blue;
+
+			transition: opacity 300ms ease-in-out;
 		}
+
+		&:hover::after,
+		&:focus::after {
+				opacity: 1;
+			}
 
 		$translate : 180px;
 		&:nth-of-type(1) {
