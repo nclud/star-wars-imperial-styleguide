@@ -82,3 +82,32 @@
   INFO [98110591] Finished in 0.070 seconds with exit status 0 (successful).
   INFO [0044a9ed] Running /usr/bin/env echo "Branch master (at a1fd0198c48de631877ebf7f68d6480dceaebaa6) deployed as release 20190429165848 by rheimlich" >> /var/www/vhosts/imperialstyleguide.nclud.com/revisions.log on nunb.nclud.com
   INFO [6f4ec684] Finished in 0.078 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-30 12:23:13 -0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [53f9fb36] Running /usr/bin/env mkdir -p /tmp/rheimlich/tmp on nunb.nclud.com
+  INFO [1415864f] Finished in 0.337 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/rheimlich/tmp/git-ssh-imperialstyleguide.nclud.com-production-rheimlich.sh 100.0%
+  INFO [aca82d76] Running /usr/bin/env chmod 700 /tmp/rheimlich/tmp/git-ssh-imperialstyleguide.nclud.com-production-rheimlich.sh on nunb.nclud.com
+  INFO [354c28ef] Finished in 0.080 seconds with exit status 0 (successful).
+  INFO [de173829] Running /usr/bin/env git ls-remote git@github.com:nclud/star-wars-imperial-styleguide.git HEAD on nunb.nclud.com
+  INFO [701089c8] Finished in 0.363 seconds with exit status 0 (successful).
+  INFO [091aab7d] Running /usr/bin/env mkdir -p /var/www/vhosts/imperialstyleguide.nclud.com/shared /var/www/vhosts/imperialstyleguide.nclud.com/releases on nunb.nclud.com
+  INFO [af2719ca] Finished in 0.027 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/vhosts/imperialstyleguide.nclud.com/repo
+  INFO [7907b63d] Running /usr/bin/env git remote set-url origin git@github.com:nclud/star-wars-imperial-styleguide.git on nunb.nclud.com
+  INFO [f4508bcf] Finished in 0.068 seconds with exit status 0 (successful).
+  INFO [3a6fd4fb] Running /usr/bin/env git remote update --prune on nunb.nclud.com
+  INFO [d2567535] Finished in 0.478 seconds with exit status 0 (successful).
+  INFO [3b11b7e0] Running /usr/bin/env mkdir -p /var/www/vhosts/imperialstyleguide.nclud.com/releases/20190430162314 on nunb.nclud.com
+  INFO [406d5369] Finished in 0.067 seconds with exit status 0 (successful).
+  INFO [6fe0b3d2] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/vhosts/imperialstyleguide.nclud.com/releases/20190430162314 on nunb.nclud.com
+  INFO [e79d9fca] Finished in 0.206 seconds with exit status 0 (successful).
+  INFO [99378766] Running /usr/bin/env echo "5cfa790fa97a1ffbba85ae433446ad4a0a0d77e1" >> REVISION on nunb.nclud.com
+  INFO [8cfce959] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO [4e09321b] Running /usr/bin/env ln -s /var/www/vhosts/imperialstyleguide.nclud.com/releases/20190430162314 /var/www/vhosts/imperialstyleguide.nclud.com/releases/current on nunb.nclud.com
+  INFO [78bdedf5] Finished in 0.067 seconds with exit status 0 (successful).
+  INFO [c0b68647] Running /usr/bin/env mv /var/www/vhosts/imperialstyleguide.nclud.com/releases/current /var/www/vhosts/imperialstyleguide.nclud.com on nunb.nclud.com
+  INFO [1c8984a9] Finished in 0.067 seconds with exit status 0 (successful).
+  INFO [f4cd64a4] Running /usr/bin/env echo "Branch master (at 5cfa790fa97a1ffbba85ae433446ad4a0a0d77e1) deployed as release 20190430162314 by rheimlich" >> /var/www/vhosts/imperialstyleguide.nclud.com/revisions.log on nunb.nclud.com
+  INFO [b9ab143d] Finished in 0.066 seconds with exit status 0 (successful).
