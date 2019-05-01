@@ -23,6 +23,7 @@ body{font-family:upheaval,'Helvetica Neue',Helvetica,Arial,sans-serif;color:#4a6
 .tv{position:fixed;opacity:.25;top:0;bottom:0;left:0;right:0;height:100%;z-index:-1}
 .tv canvas{height:100%;width:100%}
 .grid{background-image:-webkit-gradient(linear,left top,left bottom,color-stop(.0625rem,#0f1567),color-stop(.125rem,transparent)),-webkit-gradient(linear,left top,right top,color-stop(.0625rem,#0f1567),color-stop(.625rem,transparent));background-image:-webkit-linear-gradient(#0f1567 .0625rem,transparent .125rem),-webkit-linear-gradient(left,#0f1567 .0625rem,transparent .625rem);background-image:-o-linear-gradient(#0f1567 .0625rem,transparent .125rem),-o-linear-gradient(left,#0f1567 .0625rem,transparent .625rem);background-image:linear-gradient(#0f1567 .0625rem,transparent .125rem),linear-gradient(90deg,#0f1567 .0625rem,transparent .625rem);-webkit-background-size:8% 8%,4% 4%;background-size:8% 8%,4% 4%;background-position:0 0,0 0;opacity:.55;position:fixed;top:0;bottom:0;left:0;right:0;height:100%;z-index:-1}
+h1{font-size:4.5rem;margin-bottom:6rem;text-align:center;font-weight:400;color:#bc1e22;text-shadow:0 0 .625em #bc1e22,0 0 1.5625em #bc1e22,-.0625em 0 .125em rgba(0,0,0,0.5)}
 svg{fill:currentColor}
 .svg{width:1em;height:1em;stroke:currentColor}
 .nav{position:relative;margin:3.75rem auto;height:100vh}
@@ -33,11 +34,11 @@ svg{fill:currentColor}
 .nav a:nth-of-type(2){-webkit-transform:rotate(-44deg) translate(50vh) rotate(44deg);-ms-transform:rotate(-44deg) translate(50vh) rotate(44deg);transform:rotate(-44deg) translate(50vh) rotate(44deg)}
 .nav a:nth-of-type(3){-webkit-transform:rotate(10deg) translate(37vh) rotate(-10deg);-ms-transform:rotate(10deg) translate(37vh) rotate(-10deg);transform:rotate(10deg) translate(37vh) rotate(-10deg)}
 .nav a:nth-of-type(4){-webkit-transform:rotate(93deg) translate(32vh) rotate(-93deg);-ms-transform:rotate(93deg) translate(32vh) rotate(-93deg);transform:rotate(93deg) translate(32vh) rotate(-93deg);margin-lefT:-8vh}
-.nav a:nth-of-type(5){-webkit-transform:rotate(175deg) translate(88vh) rotate(-175deg);-ms-transform:rotate(175deg) translate(88vh) rotate(-175deg);transform:rotate(175deg) translate(88vh) rotate(-175deg)}
+.nav a:nth-of-type(5){-webkit-transform:rotate(175deg) translate(52vh) rotate(-175deg);-ms-transform:rotate(175deg) translate(52vh) rotate(-175deg);transform:rotate(175deg) translate(52vh) rotate(-175deg)}
 .nav a:nth-of-type(6){-webkit-transform:rotate(203deg) translate(88vh) rotate(-203deg);-ms-transform:rotate(203deg) translate(88vh) rotate(-203deg);transform:rotate(203deg) translate(88vh) rotate(-203deg)}
 .nav .svg-imperial-logo{height:80vh;width:auto;font-size:17.5rem;display:block;margin:10vh auto;color:#fff;-webkit-filter:drop-shadow(0 0 .1875rem rgba(255,255,255,0.7));filter:drop-shadow(0 0 .1875rem rgba(255,255,255,0.7))}
 .section{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;max-width:64rem;margin:3.75rem auto;padding:.5rem}
-.section .section-title{text-shadow:0 0 .625em #d9619d,0 0 1.5625em #d9619d,-.0625em 0 .125em rgba(0,0,0,0.5);color:#d9619d;text-transform:uppercase;font-weight:600;font-size:2.8125rem;width:45%}
+.section .section-title{text-shadow:0 0 .625em #d9619d,0 0 1.5625em #d9619d,-.0625em 0 .125em rgba(0,0,0,0.5);color:#d9619d;text-transform:uppercase;font-size:2.8125rem;width:45%}
 .section .section-content{width:50%}
 .color-section th{font-size:1.75rem;color:#d9619d;text-align:left;font-weight:700}
 .color-section td{font-size:1.5rem;vertical-align:middle;padding:.5rem 0}
@@ -61,7 +62,7 @@ svg{fill:currentColor}
 .typography-section .size72{font-size:4.5rem}
 .typography-section .size90{font-size:5.625rem}
 .typography-section td:nth-child(1){font-family:arial}
-.text-section p{font-size:1.125rem;font-weight:600;line-height:1.5;margin-bottom:.875rem;color:#4a6a93;text-shadow:0 0 .375rem rgba(74,106,147,0.7)}
+.text-section p{font-size:1.125rem;line-height:1.5;margin-bottom:.875rem;color:#4a6a93}
 @media(max-width:64em){.section{display:block;padding:0 2.25rem}
 .section .section-title,.section .section-content{width:auto}
 }@-webkit-keyframes scanline{0%{-webkit-transform:translate3d(0,200000%,0);transform:translate3d(0,200000%,0)}

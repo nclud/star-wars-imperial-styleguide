@@ -5,26 +5,20 @@
 	<header>
 		<nav class="nav">
 			{{ logo }}
-			<a href="#">Logo</a>
-			<a href="#">Colors</a>
-			<a href="#">Typography</a>
-			<a href="#">Useage</a>
-			<a href="#">Brand Positioning</a>
-			<a href="#">Target Audience</a>
+			<a href="#intro">Intro</a>
+			<a href="#voice-and-tone">Voice and Tone</a>
+			<a href="#colors">Colors</a>
+			<a href="#typography">Typeface</a>
+			<a href="#logo">Logo</a>
+			<a href="#target-audience">Target Audience</a>
 		</nav>
 		{# Next steps: Make the logo and navigation rotate. See https://codepen.io/dangvanthanh/pen/Birzn #}
 	</header>
 	<h1>The Imperial Styleguide</h1>
 
+	{{ intro_section }}
+	{{ voice_and_tone_section }}
 	{{ color_section }}
 	{{ typography_section }}
-
-	<section class="text-section section">
-		<h2 class="section-title">The Imperial Mark</h2>
-		<div class="section-content">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		</div>
-	</section>
-
+	{{ logo_section }}
 {% endblock %}

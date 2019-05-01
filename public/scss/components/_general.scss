@@ -41,3 +41,13 @@ body {
 	height: 100%;
 	z-index: -1;
 }
+
+h1 {
+	font-size: rem( 72px );
+	margin-bottom: rem( 96px );
+	text-align: center;
+	font-weight: 400;
+	color: $imperial-red;
+
+	@include neon-glow($imperial-red);
+}
