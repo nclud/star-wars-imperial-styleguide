@@ -30,9 +30,24 @@ body {
 
 h1 {
 	font-size: rem( 50px );
-	margin-bottom: rem( 96px );
+	margin: rem( 36px ) auto rem( 96px );
+	border-top: rem( 4px ) solid $white;
+	padding-top: rem( 16px );
 	font-weight: 400;
 	color: $white;
+	max-width: rem( 1024px );
+	position: relative;
 
 	@include neon-glow($imperial-red);
+
+	&:before {
+		content: " ";
+		position: absolute;
+		right: 0;
+		top: rem( -14px );
+		height: rem( 10px );
+		background-color: #ccc;
+		opacity: 0.4;
+		width: 45%;
+	}
 }
