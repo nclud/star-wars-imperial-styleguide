@@ -13,7 +13,7 @@ body {
 .tv {
 	position: fixed;
 
-	opacity: 0.25;
+	opacity: 0.45;
 
 	top: 0;
 	bottom: 0;
@@ -26,24 +26,6 @@ body {
 		height: 100%;
 		width: 100%;
 	}
-}
-
-.grid {
-	background-image:
-		linear-gradient( $grid-blue rem( 1px ), transparent rem( 2px ) ),
-		linear-gradient( 90deg, $grid-blue rem( 1px ), transparent rem( 10px ) );
-	background-size: 8% 8%, 4% 4%;
-	background-position: 0 0, 0 0;
-
-	opacity: 0.55;
-
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 100%;
-	z-index: -1;
 }
 
 h1 {
