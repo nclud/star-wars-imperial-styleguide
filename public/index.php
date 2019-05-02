@@ -50,5 +50,6 @@ $context = array(
 	'color_section'          => $color_section,
 	'typography_section'     => $typography_section,
 	'logo_section'           => $logo_section,
+	'nclud_logo'             => get_svg( 'nclud-logo' ),
 );
 echo $twig->render( 'index.twig', $context );
