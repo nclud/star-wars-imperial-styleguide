@@ -43,25 +43,7 @@ svg{fill:currentColor}
 .color-section th{font-size:1.75rem;color:#d9619d;text-align:left;font-weight:700}
 .color-section td{font-size:1.5rem;vertical-align:middle;padding:.5rem 0}
 .color-section .color-swatch{display:block;height:5rem;width:5rem;-webkit-box-shadow:0 .125rem .5rem .0625rem rgba(255,255,255,0.1);box-shadow:0 .125rem .5rem .0625rem rgba(255,255,255,0.1)}
-.typography-section{overflow:hidden}
-.typography-section .glyphs,.typography-section .sizing{font-family:auretech}
-.typography-section .glyphs{font-size:3rem;text-align:center;color:#bc1e22}
-.typography-section .size10{font-size:.625rem}
-.typography-section .size11{font-size:.6875rem}
-.typography-section .size12{font-size:.75rem}
-.typography-section .size13{font-size:.8125rem}
-.typography-section .size14{font-size:.875rem}
-.typography-section .size16{font-size:1rem}
-.typography-section .size18{font-size:1.125rem}
-.typography-section .size20{font-size:1.25rem}
-.typography-section .size24{font-size:1.5rem}
-.typography-section .size30{font-size:1.875rem}
-.typography-section .size36{font-size:2.25rem}
-.typography-section .size48{font-size:3rem}
-.typography-section .size60{font-size:3.75rem}
-.typography-section .size72{font-size:4.5rem}
-.typography-section .size90{font-size:5.625rem}
-.typography-section td:nth-child(1){font-family:arial}
+.typography-section .typographic-sample{font-family:auretech;font-size:3rem;word-break:break-all}
 .text-section p{font-size:1.125rem;line-height:1.5;margin-bottom:.875rem;color:#4a6a93}
 @media(max-width:64em){.section{display:block;padding:0 2.25rem}
 .section .section-title,.section .section-content{width:auto}
