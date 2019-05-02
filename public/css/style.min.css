@@ -51,10 +51,41 @@ svg{fill:currentColor}
 .color-section td{font-size:1.5rem;vertical-align:middle;padding:.5rem 0}
 .color-section .color-swatch{display:block;height:5rem;width:5rem;-webkit-box-shadow:0 .125rem .5rem .0625rem rgba(255,255,255,0.1);box-shadow:0 .125rem .5rem .0625rem rgba(255,255,255,0.1)}
 .typography-section .typographic-sample{font-family:auretech;font-size:3rem;word-break:break-all}
+.char span{opacity:0}
+.char::after{content:attr(data-char);position:absolute;opacity:1;font-family:auretech}
+.svg-imperial-logo{opacity:0}
+.character-morph-animation .char span{opacity:1;animation-direction:alternate-reverse}
+.character-morph-animation .char::after{opacity:0}
+.character-morph-animation .char span,.character-morph-animation .char::after{-webkit-animation-duration:1000ms;animation-duration:1000ms;-webkit-animation-name:flicker;animation-name:flicker;-webkit-animation-iteration-count:1;animation-iteration-count:1}
+.character-morph-animation .svg-imperial-logo{-webkit-animation-duration:3500ms;animation-duration:3500ms;-webkit-animation-name:flicker;animation-name:flicker;-webkit-animation-iteration-count:1;animation-iteration-count:1;opacity:1}
+.character-morph-animation .char.speed-1 span,.character-morph-animation .char.speed-1::after{-webkit-animation-duration:1250ms;animation-duration:1250ms}
+.character-morph-animation .char.speed-2 span,.character-morph-animation .char.speed-2::after{-webkit-animation-duration:1500ms;animation-duration:1500ms}
+.character-morph-animation .char.speed-3 span,.character-morph-animation .char.speed-3::after{-webkit-animation-duration:2000ms;animation-duration:2000ms}
+.character-morph-animation .char.speed-4 span,.character-morph-animation .char.speed-4::after{-webkit-animation-duration:2500ms;animation-duration:2500ms}
+.end-character-morph-animation .char span,.end-character-morph-animation .svg-imperial-logo{opacity:1}
+.end-character-morph-animation .char::after{display:none}
 @media(max-width:64em){.section{display:block;padding:0 2.25rem}
 .section .section-title,.section .section-content{width:auto}
 }@-webkit-keyframes scanline{0%{-webkit-transform:translate3d(0,200000%,0);transform:translate3d(0,200000%,0)}
 }@keyframes scanline{0%{-webkit-transform:translate3d(0,200000%,0);transform:translate3d(0,200000%,0)}
 }@-webkit-keyframes scanlines{0%{background-position:0 50%}
 }@keyframes scanlines{0%{background-position:0 50%}
+}@-webkit-keyframes flicker{0%{opacity:0}
+50%{opacity:0}
+60%{opacity:1}
+70%{opacity:0}
+75%{opacity:1}
+80%{opacity:0}
+90%{opacity:1}
+95%{opacity:0}
+100%{opacity:1}
+}@keyframes flicker{0%{opacity:0}
+50%{opacity:0}
+60%{opacity:1}
+70%{opacity:0}
+75%{opacity:1}
+80%{opacity:0}
+90%{opacity:1}
+95%{opacity:0}
+100%{opacity:1}
 }

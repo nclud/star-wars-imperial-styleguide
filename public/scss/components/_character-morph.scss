@@ -1,0 +1,82 @@
+.char span {
+	opacity: 0;
+}
+
+.char::after {
+	content: attr(data-char);
+	position: absolute;
+	opacity: 1;
+	font-family: auretech;
+}
+
+.svg-imperial-logo {
+	opacity: 0;
+}
+
+.character-morph-animation {
+	.char span {
+		opacity: 1;
+		animation-direction: alternate-reverse;
+	}
+
+	.char::after {
+		opacity: 0;
+	}
+
+	.char span,
+	.char::after {
+		animation-duration: 1000ms;
+		animation-name: flicker;
+		animation-iteration-count: 1;
+	}
+
+	.svg-imperial-logo {
+		animation-duration: 3500ms;
+		animation-name: flicker;
+		animation-iteration-count: 1;
+		opacity: 1;
+	}
+
+	.char.speed-1 span,
+	.char.speed-1::after {
+		animation-duration: 1250ms;
+	}
+
+	.char.speed-2 span,
+	.char.speed-2::after {
+		animation-duration: 1500ms;
+	}
+
+	.char.speed-3 span,
+	.char.speed-3::after {
+		animation-duration: 2000ms;
+	}
+
+	.char.speed-4 span,
+	.char.speed-4::after {
+		animation-duration: 2500ms;
+	}
+}
+
+.end-character-morph-animation {
+	.char span,
+	.svg-imperial-logo {
+		opacity: 1;
+	}
+
+	.char::after {
+		display: none;
+	}
+}
+
+@keyframes flicker {
+	0%   { opacity: 0; }
+	50%  { opacity: 0; }
+	60%  { opacity: 1; }
+	70%  { opacity: 0; }
+	75%  { opacity: 1; }
+	80%  { opacity: 0; }
+	90%  { opacity: 1; }
+	95%  { opacity: 0; }
+	100% { opacity: 1; }
+}

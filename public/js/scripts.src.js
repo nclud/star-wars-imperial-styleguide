@@ -87,3 +87,35 @@
 	window.onresize();
 	window.requestAnimationFrame(render);
 })();
+
+jQuery(document).ready(function($) {
+	var animationSpeeds = [
+		'',
+		'speed-1',
+		'speed-2',
+		'speed-3',
+		'speed-4',
+	];
+	$('h1, .nav a').html(function (i, html) {
+		var chars = $.trim(html).split('');
+		$.each(chars, function(i, char) {
+			var animationSpeed = animationSpeeds[
+				Math.floor(
+					Math.random() * animationSpeeds.length
+				)
+			];
+			chars[i] = '<span class="char ' + animationSpeed + '" data-char="' + char + '"><span>' + char + '</span></span>';
+		});
+		return chars.join('');
+	});
+
+	setTimeout(function() {
+		$('body').addClass('character-morph-animation');
+	}, 1500);
+
+	setTimeout(function() {
+		$('body')
+			.removeClass('character-morph-animation')
+			.addClass('end-character-morph-animation');
+	}, 4500);
+});
