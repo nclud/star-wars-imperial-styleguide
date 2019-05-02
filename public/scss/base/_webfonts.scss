@@ -6,10 +6,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'upheaval';
-    src: url('../fonts/upheavtt.woff2') format('woff2'),
-         url('../fonts/upheavtt.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+$monospace : 'Source Code Pro', monospace;
+$san-serif : 'Saira', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$auretech  : 'auretech';

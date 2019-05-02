@@ -3,8 +3,8 @@ html {
 }
 
 body {
-	font-family: upheaval, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	color: $bright-imperial-blue;
+	font-family: $san-serif;
+	color: $white;
 
 	background-color: $black;
 	height: 100%;
@@ -47,15 +47,10 @@ body {
 }
 
 h1 {
-	font-size: rem( 72px );
+	font-size: rem( 50px );
 	margin-bottom: rem( 96px );
-	text-align: center;
 	font-weight: 400;
-	color: $imperial-red;
-
-	position: absolute;
-    width: 100%;
-    top: 33.5%;
+	color: $white;
 
 	@include neon-glow($imperial-red);
 }

@@ -2,12 +2,15 @@
     position: relative;
 	margin: rem(60px) auto;
 	height: 100vh;
+	font-family: $monospace;
+	font-weight: 700;
+	text-transform: uppercase;
 
     a {
 		@include neon-glow( $light-imperial-red );
 
         position: absolute;
-        color: $light-imperial-red;
+        color: $white;
         top: 50%;
         left: 50%;
 		text-align: center;

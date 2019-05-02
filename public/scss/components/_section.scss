@@ -7,21 +7,27 @@
 	margin: rem( 60px ) auto;
 	padding: rem( 8px );
 
+	border-top: rem(4px) solid $white;
+	padding-top: rem(24px);
+
 	.section-title {
 		@include neon-glow( $light-imperial-red );
 
-		color: $light-imperial-red;
+		color: $white;
 		text-transform: uppercase;
-		font-size: rem( 45px );
+		font-size: rem( 40px );
+		font-family: $monospace;
+		font-weight: 700;
 		width: 45%;
 	}
 
 	.section-content {
+		padding-top: rem(48px);
 		width: 50%;
 
 		p,
 		li {
-			font-size: rem( 36px );
+			font-size: rem( 40px );
 			line-height: 1.5;
 			margin-bottom: rem( 14px );
 			color: $bright-imperial-blue;
