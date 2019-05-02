@@ -1,41 +1,5 @@
 'use strict';
 
-// Vanilla JavaScript scroll anchor
-// See https://perishablepress.com/vanilla-javascript-scroll-anchor/
-(function () {
-	scrollTo();
-})();
-
-function scrollTo() {
-	var links = document.querySelectorAll('.nav a');
-	links.forEach(function (each) {
-		return each.onclick = scrollAnchors;
-	});
-}
-
-function scrollAnchors(e) {
-	var respond = arguments.length <= 1 || arguments[1] === undefined ? null : arguments[1];
-
-	var distanceToTop = function distanceToTop(el) {
-		return Math.floor(el.getBoundingClientRect().top);
-	};
-	e.preventDefault();
-	var targetID = respond ? respond.getAttribute('href') : this.getAttribute('href');
-	var targetAnchor = document.querySelector(targetID);
-	if (!targetAnchor) return;
-	var originalTop = distanceToTop(targetAnchor);
-	window.scrollBy({ top: originalTop, left: 0, behavior: 'smooth' });
-	var checkIfDone = setInterval(function () {
-		var atBottom = window.innerHeight + window.pageYOffset >= document.body.offsetHeight - 2;
-		if (distanceToTop(targetAnchor) === 0 || atBottom) {
-			targetAnchor.tabIndex = '-1';
-			targetAnchor.focus();
-			window.history.pushState('', '', targetID);
-			clearInterval(checkIfDone);
-		}
-	}, 100);
-}
-
 // Canvas TV scroll effect
 // See https://codepen.io/alenaksu/pen/dGjeMZ
 (function() {
