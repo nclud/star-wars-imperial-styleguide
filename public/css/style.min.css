@@ -20,9 +20,8 @@ sup{vertical-align:baseline;position:relative;top:-0.4em;font-size:85%;padding:0
 a{text-decoration:none}
 html{scroll-behavior:smooth}
 body{font-family:"Saira","Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;background-color:#000;height:100%}
-.tv{position:fixed;opacity:.25;top:0;bottom:0;left:0;right:0;height:100%;z-index:-1}
+.tv{position:fixed;opacity:.45;top:0;bottom:0;left:0;right:0;height:100%;z-index:-1}
 .tv canvas{height:100%;width:100%}
-.grid{background-image:-webkit-gradient(linear,left top,left bottom,color-stop(.0625rem,#0f1567),color-stop(.125rem,transparent)),-webkit-gradient(linear,left top,right top,color-stop(.0625rem,#0f1567),color-stop(.625rem,transparent));background-image:-webkit-linear-gradient(#0f1567 .0625rem,transparent .125rem),-webkit-linear-gradient(left,#0f1567 .0625rem,transparent .625rem);background-image:-o-linear-gradient(#0f1567 .0625rem,transparent .125rem),-o-linear-gradient(left,#0f1567 .0625rem,transparent .625rem);background-image:linear-gradient(#0f1567 .0625rem,transparent .125rem),linear-gradient(90deg,#0f1567 .0625rem,transparent .625rem);-webkit-background-size:8% 8%,4% 4%;background-size:8% 8%,4% 4%;background-position:0 0,0 0;opacity:.55;position:fixed;top:0;bottom:0;left:0;right:0;height:100%;z-index:-1}
 h1{font-size:3.125rem;margin-bottom:6rem;font-weight:400;color:#fff;text-shadow:0 0 .625em #bc1e22,0 0 1.5625em #bc1e22,-.0625em 0 .125em rgba(0,0,0,0.5)}
 svg{fill:currentColor}
 .svg{width:1em;height:1em;stroke:currentColor}
@@ -40,7 +39,7 @@ svg{fill:currentColor}
 .section{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;max-width:64rem;margin:3.75rem auto;padding:.5rem;border-top:.25rem solid #fff;padding-top:1.5rem}
 .section .section-title{text-shadow:0 0 .625em #d9619d,0 0 1.5625em #d9619d,-.0625em 0 .125em rgba(0,0,0,0.5);color:#fff;text-transform:uppercase;font-size:2.5rem;font-family:"Source Code Pro",monospace;font-weight:700;width:45%}
 .section .section-content{padding-top:3rem;width:50%}
-.section .section-content p,.section .section-content li{font-size:2.5rem;line-height:1.5;margin-bottom:.875rem;color:#4a6a93}
+.section .section-content p,.section .section-content li{font-size:1.4rem;line-height:1.9;margin-bottom:.875rem;color:#fff}
 .section .section-content ol,.section .section-content ul{padding-left:3rem}
 .section .section-content ol li,.section .section-content ul li{position:relative}
 .section .section-content ol{list-style:none;counter-reset:li}
