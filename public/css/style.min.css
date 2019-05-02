@@ -45,6 +45,7 @@ svg{fill:currentColor}
 .section .section-content ol li,.section .section-content ul li{position:relative}
 .section .section-content ol{list-style:none;counter-reset:li}
 .section .section-content ol>li::before{content:counter(li) ".";counter-increment:li;position:absolute;top:.625rem;left:-4.375rem;width:1.5em;line-height:1;text-align:right;color:#f69445}
+.color-section table{width:100%}
 .color-section th{font-size:1.75rem;color:#d9619d;text-align:left;font-weight:700}
 .color-section td{font-size:1.5rem;vertical-align:middle;padding:.5rem 0}
 .color-section .color-swatch{display:block;height:5rem;width:5rem;-webkit-box-shadow:0 .125rem .5rem .0625rem rgba(255,255,255,0.1);box-shadow:0 .125rem .5rem .0625rem rgba(255,255,255,0.1)}
