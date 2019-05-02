@@ -7,9 +7,9 @@
 		<table>
 			<thead>
 				<tr>
-					<th></th>
-					<th>Hex</th>
+					<th>Swatch</th>
 					<th>Name</th>
+					<th>Hexadecimal</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -18,8 +18,8 @@
 					<td>
 						<div class="color-swatch" style="background-color: {{ color.hex }};">
 					</td>
-					<td>{{ color.hex }}</td>
 					<td>{{ color.name }}</td>
+					<td>{{ color.hex }}</td>
 				</tr>
 		{% endfor %}
 			</tbody>

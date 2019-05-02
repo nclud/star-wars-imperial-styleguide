@@ -16,15 +16,15 @@ $color_context = array(
 		),
 		array(
 			'hex'  => '#64696C',
-			'name' => 'Sith Gray',
+			'name' => 'Durasteel Grey',
 		),
 		array(
 			'hex'  => '#556567',
-			'name' => 'Dagobah Moss',
+			'name' => 'Verdant Future Green',
 		),
 		array(
 			'hex'  => '#FFFFFF',
-			'name' => 'Hoth White',
+			'name' => 'Unity White',
 		),
 		array(
 			'hex'  => '#000000',
