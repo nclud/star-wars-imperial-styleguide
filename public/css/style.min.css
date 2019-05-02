@@ -40,11 +40,11 @@ svg{fill:currentColor}
 .section{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;max-width:64rem;margin:3.75rem auto;padding:.5rem}
 .section .section-title{text-shadow:0 0 .625em #d9619d,0 0 1.5625em #d9619d,-.0625em 0 .125em rgba(0,0,0,0.5);color:#d9619d;text-transform:uppercase;font-size:2.8125rem;width:45%}
 .section .section-content{width:50%}
+.section .section-content p{font-size:2.25rem;line-height:1.5;margin-bottom:.875rem;color:#4a6a93}
 .color-section th{font-size:1.75rem;color:#d9619d;text-align:left;font-weight:700}
 .color-section td{font-size:1.5rem;vertical-align:middle;padding:.5rem 0}
 .color-section .color-swatch{display:block;height:5rem;width:5rem;-webkit-box-shadow:0 .125rem .5rem .0625rem rgba(255,255,255,0.1);box-shadow:0 .125rem .5rem .0625rem rgba(255,255,255,0.1)}
 .typography-section .typographic-sample{font-family:auretech;font-size:3rem;word-break:break-all}
-.text-section p{font-size:1.125rem;line-height:1.5;margin-bottom:.875rem;color:#4a6a93}
 @media(max-width:64em){.section{display:block;padding:0 2.25rem}
 .section .section-title,.section .section-content{width:auto}
 }@-webkit-keyframes scanline{0%{-webkit-transform:translate3d(0,200000%,0);transform:translate3d(0,200000%,0)}

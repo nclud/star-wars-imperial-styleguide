@@ -18,6 +18,14 @@
 
 	.section-content {
 		width: 50%;
+
+		p {
+			font-size: rem( 36px );
+			line-height: 1.5;
+			margin-bottom: rem( 14px );
+			color: $bright-imperial-blue;
+			// text-shadow: 0 0 rem( 6px ) rgba( $bright-imperial-blue, 0.7 );
+		}
 	}
 }
 
