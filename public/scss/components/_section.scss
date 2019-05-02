@@ -19,12 +19,43 @@
 	.section-content {
 		width: 50%;
 
-		p {
+		p,
+		li {
 			font-size: rem( 36px );
 			line-height: 1.5;
 			margin-bottom: rem( 14px );
 			color: $bright-imperial-blue;
 			// text-shadow: 0 0 rem( 6px ) rgba( $bright-imperial-blue, 0.7 );
+		}
+
+		ol,
+		ul {
+			padding-left: rem( 48px );
+
+			li {
+				position: relative;
+			}
+		}
+
+		ol {
+			list-style: none;
+			counter-reset: li;
+
+			> li {
+				&::before {
+					content: counter( li ) '.';
+					counter-increment: li;
+
+					position: absolute;
+					top: rem( 10px );
+					left: rem( -70px );
+					width: em( 24px );
+
+					line-height: 1;
+					text-align: right;
+					color: $galactic-orange;
+				  }
+			}
 		}
 	}
 }
