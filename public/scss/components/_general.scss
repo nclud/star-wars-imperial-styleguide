@@ -49,5 +49,9 @@ h1 {
 	font-weight: 400;
 	color: $imperial-red;
 
+	position: absolute;
+    width: 100%;
+    top: 33.5%;
+
 	@include neon-glow($imperial-red);
 }
