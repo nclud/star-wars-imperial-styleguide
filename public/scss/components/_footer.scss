@@ -1,6 +1,6 @@
 .footer {
 	max-width: rem( 1024px );
-	margin: 0 auto rem( 120px );
+	margin: 0 auto rem( 72px );
 }
 
 .svg-nclud-logo {
@@ -17,4 +17,11 @@
 	color: $white;
 
 	@include neon-glow( $white );
+}
+
+.endline {
+	background-color: rgba(#ccc, 0.25);
+	height: rem( 48px );
+	border: 0 none;
+	margin: 0;
 }
