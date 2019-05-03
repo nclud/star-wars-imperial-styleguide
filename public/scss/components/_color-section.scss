@@ -13,11 +13,20 @@
 
 	th {
 		font-size: rem( 28px );
-		color: $imperial-red;
 		text-align: left;
-		font-weight: 700;
+		padding-bottom: rem(32px);
+		color: $white;
 
-		@include neon-glow( $imperial-red );
+		@include less-neon-glow( $white );
+
+		span {
+			text-transform: uppercase;
+			border: rem(1px) solid $white;
+			padding: rem(8px) rem(12px);
+			border-radius: rem( 4px );
+
+			@include less-box-glow( $white );
+		}
 	}
 
 	td {

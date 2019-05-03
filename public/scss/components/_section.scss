@@ -62,6 +62,17 @@
 			}
 		}
 	}
+
+	.section-subhead {
+		text-transform: uppercase;
+		color: $white;
+		border: rem(1px) solid $white;
+		padding: rem(8px) rem(12px);
+		border-radius: rem( 4px );
+		margin-top: rem( 32px );
+
+		@include less-box-glow( $white );
+	}
 }
 
 @media( max-width: em( 1024px ) ) {
