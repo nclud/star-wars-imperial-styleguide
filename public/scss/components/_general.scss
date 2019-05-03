@@ -37,6 +37,7 @@ h1 {
 	color: $white;
 	max-width: rem( 1024px );
 	position: relative;
+	text-transform: uppercase;
 
 	@include neon-glow($imperial-red);
 
