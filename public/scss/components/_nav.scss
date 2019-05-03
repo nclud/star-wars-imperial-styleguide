@@ -89,25 +89,25 @@
 
 @media( max-width: em( 1024px ) ) {
 	.nav {
-		transform: scale(0.7);
+		transform: scale(0.7) translateY(-50%);
 	}
 }
 
 @media( max-width: em( 770px ) ) {
 	.nav {
-		transform: scale(0.6);
+		transform: scale(0.6) translateY(-50%);
 	}
 }
 
 @media( max-width: em( 490px ) ) {
 	.nav {
-		transform: scale(0.45);
+		transform: scale(0.45) translateY(-50%);
 	}
 }
 
 @media( max-width: em( 330px ) ) {
 	.nav {
-		transform: scale(0.35);
+		transform: scale(0.35) translateY(-50%);
 	}
 }
 
