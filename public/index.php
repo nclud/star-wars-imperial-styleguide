@@ -44,6 +44,10 @@ $logo_context = array(
 	'red_logo_src'     => '/img/red-imperial-logo-on-white.jpg',
 	'white_logo_src'   => '/img/white-imperial-logo-on-black.jpg',
 	'glowing_logo_src' => '/img/white-glowing-imperial-logo-on-black.jpg',
+	'x'                => get_svg( 'x' ),
+	'unacceptable_1'   => '/img/unacceptable-use-1.jpg',
+	'unacceptable_2'   => '/img/unacceptable-use-2.jpg',
+	'unacceptable_3'   => '/img/unacceptable-use-3.jpg',
 );
 $logo_section = $twig->render( 'logo-section.twig', $logo_context );
 
