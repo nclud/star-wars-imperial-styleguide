@@ -48,6 +48,7 @@ $logo_context = array(
 	'unacceptable_1'   => '/img/unacceptable-use-1.jpg',
 	'unacceptable_2'   => '/img/unacceptable-use-2.jpg',
 	'unacceptable_3'   => '/img/unacceptable-use-3.jpg',
+	'unacceptable_4'   => '/img/unacceptable-use-4.jpg',
 );
 $logo_section = $twig->render( 'logo-section.twig', $logo_context );
 
