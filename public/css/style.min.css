@@ -43,9 +43,10 @@ svg{fill:currentColor}
 .section .section-content ol li,.section .section-content ul li{position:relative}
 .section .section-content ol{list-style:none;counter-reset:li}
 .section .section-content ol>li::before{content:counter(li) ".";counter-increment:li;position:absolute;top:.625rem;left:-4.375rem;width:1.5em;line-height:1;text-align:right;color:#fff}
-.color-section table{width:100%}
-.color-section th{font-size:1.75rem;color:#bc1e22;text-align:left;font-weight:700}
-.color-section td{font-size:1.5rem;vertical-align:middle;padding:.5rem 0}
+.color-section table{width:130%;margin-left:-15%;margin-top:2rem}
+.color-section td,.color-section th{padding:.5rem .5rem}
+.color-section th{font-size:1.75rem;color:#bc1e22;text-align:left;font-weight:700;text-shadow:0 0 .625em #bc1e22,0 0 1.5625em #bc1e22,-.0625em 0 .125em rgba(0,0,0,0.5)}
+.color-section td{font-size:1.5rem;vertical-align:middle;text-shadow:0 0 .625em #fff,0 0 1.5625em #fff,-.0625em 0 .125em rgba(0,0,0,0.5)}
 .color-section .color-swatch{display:block;height:5rem;width:5rem;-webkit-box-shadow:0 .125rem .5rem .0625rem rgba(255,255,255,0.1);box-shadow:0 .125rem .5rem .0625rem rgba(255,255,255,0.1)}
 .typography-section .typographic-sample{font-family:"auretech";font-size:3rem;word-break:break-all}
 .grab-the-bookmarklet a{display:block;color:#bc1e22;font-size:2.25rem;text-shadow:0 0 .625em #bc1e22,0 0 1.5625em #bc1e22,-.0625em 0 .125em rgba(0,0,0,0.5)}

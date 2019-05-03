@@ -1,7 +1,14 @@
 .color-section {
 
 	table {
-		width: 100%;
+		width: 130%;
+		margin-left: -15%;
+		margin-top: rem( 32px );
+	}
+
+	td,
+	th {
+		padding: rem( 8px ) rem(8px);
 	}
 
 	th {
@@ -9,13 +16,17 @@
 		color: $imperial-red;
 		text-align: left;
 		font-weight: 700;
+
+		@include neon-glow( $imperial-red );
 	}
 
 	td {
 		font-size: rem( 24px );
 		vertical-align: middle;
-		padding: rem( 8px ) 0;
+
+		@include neon-glow( $white );
 	}
+
 	.color-swatch {
 		display: block;
 		height: rem( 80px );
