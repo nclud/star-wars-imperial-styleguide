@@ -7,7 +7,7 @@
 	text-transform: uppercase;
 
     a {
-		@include neon-glow( $light-imperial-red );
+		@include neon-glow( $imperial-red );
 
         position: absolute;
         color: $white;
