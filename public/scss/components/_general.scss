@@ -31,7 +31,7 @@ body {
 header {
 	max-width: rem( 1024px );
 	position: relative;
-	margin: 0 auto;
+	margin: 0 auto rem(128px);
 	padding-top: rem( 36px );
 
 	hr::before {
