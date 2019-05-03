@@ -85,18 +85,60 @@
     }
 }
 
-@media( max-width: em( 765px ) ) {
+@media( max-height: em( 720px ) ) {
+	h1 {
+		margin-bottom: rem( 16px );
+	}
+
 	.nav {
-		transform: scale(0.55);
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		margin-top: 2vh;
+
+		.svg-imperial-logo {
+			height: auto;
+			width: 60%;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+
+		.nav-items {
+			width: 35%;
+			padding-right: rem( 16px );
+		}
 
 		a {
-			&:nth-of-type(2) {
-				transform: rotate(-50deg) translate(26vh) rotate(50deg);
-			}
+			position: relative;
+			left: 0;
+			top: 0;
+			transform: none !important;
+			margin-left: 0 !important;
+			display: block;
+			text-align: left;
+			padding: 2vh 0;
+			font-size: rem( 22px );
+		}
+	}
+}
 
-			&:nth-of-type(6) {
-				transform: rotate(195deg) translate(67vh) rotate(-195deg);
-			}
+@media( max-width: em( 500px ) ) {
+	header,
+	.nav {
+		height: auto;
+	}
+	.nav {
+		.svg-imperial-logo,
+		.nav-items {
+			width: 100%;
+		}
+
+		.nav-items {
+			padding-left: rem( 48px );
+		}
+
+		.svg-imperial-logo {
+			margin: 0;
 		}
 	}
 }

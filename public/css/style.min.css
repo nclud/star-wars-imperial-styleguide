@@ -71,18 +71,26 @@ svg{fill:currentColor}
 .svg-nclud-logo{font-size:3.125rem;margin-right:.5rem;-webkit-filter:drop-shadow(0 0 .1875rem rgba(255,255,255,0.7)) drop-shadow(0 0 .1875rem rgba(255,255,255,0.7)) drop-shadow(0 0 .1875rem rgba(255,255,255,0.7));filter:drop-shadow(0 0 .1875rem rgba(255,255,255,0.7)) drop-shadow(0 0 .1875rem rgba(255,255,255,0.7)) drop-shadow(0 0 .1875rem rgba(255,255,255,0.7))}
 .made-by{font-size:1.375rem;color:#fff;text-shadow:0 0 .3125em #fff,-.0625em 0 .125em rgba(0,0,0,0.5)}
 .endline{background-color:rgba(204,204,204,0.25);height:3rem;border:0 none;margin:0}
-@media(max-width:64em){body{padding-left:1rem;padding-right:1rem}
+@media(max-width:64em){.holder{padding-left:1rem;padding-right:1rem}
+header hr,header h1{margin-left:1rem;margin-right:1rem}
+header hr::before{right:1rem}
 .section{display:block;padding:0 2.25rem}
 .section .section-title,.section .section-content{width:auto}
 .color-section table{width:100%;margin-left:-1rem}
 .footer{padding-left:2.25rem}
 .endline{width:98vw;margin:0 calc(50% - 50vw)}
-}@media(max-width:47.8125em){.nav{-webkit-transform:scale(0.55);-ms-transform:scale(0.55);transform:scale(0.55)}
-.nav a:nth-of-type(2){-webkit-transform:rotate(-50deg) translate(26vh) rotate(50deg);-ms-transform:rotate(-50deg) translate(26vh) rotate(50deg);transform:rotate(-50deg) translate(26vh) rotate(50deg)}
-.nav a:nth-of-type(6){-webkit-transform:rotate(195deg) translate(67vh) rotate(-195deg);-ms-transform:rotate(195deg) translate(67vh) rotate(-195deg);transform:rotate(195deg) translate(67vh) rotate(-195deg)}
 }@media(max-width:45em){.color-section .color-swatch{width:2.5rem;height:2.5rem}
+}@media(max-width:31.25em){header,.nav{height:auto}
+.nav .svg-imperial-logo,.nav .nav-items{width:100%}
+.nav .nav-items{padding-left:3rem}
+.nav .svg-imperial-logo{margin:0}
 }@media(max-width:25em){.color-section table{margin-left:-2rem}
 .color-section .too-long{display:none}
+}@media(max-height:45em){h1{margin-bottom:1rem}
+.nav{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;margin-top:2vh}
+.nav .svg-imperial-logo{height:auto;width:60%;margin-top:0;margin-bottom:0}
+.nav .nav-items{width:35%;padding-right:1rem}
+.nav a{position:relative;left:0;top:0;-webkit-transform:none !important;-ms-transform:none !important;transform:none !important;margin-left:0 !important;display:block;text-align:left;padding:2vh 0;font-size:1.375rem}
 }@-webkit-keyframes flicker{0%{opacity:0}
 50%{opacity:0}
 60%{opacity:1}

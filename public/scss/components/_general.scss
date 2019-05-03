@@ -66,8 +66,18 @@ hr.border {
 }
 
 @media( max-width: em( 1024px ) ) {
-	body {
+	.holder {
 		padding-left: rem( 16px );
 		padding-right: rem( 16px );
+	}
+
+	header hr,
+	header h1 {
+		margin-left: rem( 16px );
+		margin-right: rem( 16px );
+	}
+
+	header hr::before {
+		right: rem( 16px );
 	}
 }

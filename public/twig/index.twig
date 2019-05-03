@@ -8,26 +8,30 @@
 		<nav class="nav">
 			{{ logo }}
 
-			<a href="#intro">Introduction</a>
-			<a href="#voice-and-tone">Voice and Tone</a>
-			<a href="#colors">Colors</a>
-			<a href="#typography">Typography</a>
-			<a href="#logo">Logo</a>
-			<a href="#target-audience">Target Audience</a>
+			<div class="nav-items">
+				<a href="#intro">Introduction</a>
+				<a href="#voice-and-tone">Voice and Tone</a>
+				<a href="#colors">Colors</a>
+				<a href="#typography">Typography</a>
+				<a href="#logo">Logo</a>
+				<a href="#target-audience">Target Audience</a>
+			</div>
 		</nav>
 		{# Next steps: Make the logo and navigation rotate. See https://codepen.io/dangvanthanh/pen/Birzn #}
 	</header>
 
-	<hr class="border">
-	{{ intro_section }}
-	<hr class="border">
-	{{ voice_and_tone_section }}
-	<hr class="border">
-	{{ color_section }}
-	<hr class="border">
-	{{ typography_section }}
-	<hr class="border">
-	{{ logo_section }}
-	<hr class="border">
-	{{ bookmarklet_section }}
+	<div class="holder">
+		<hr class="border">
+		{{ intro_section }}
+		<hr class="border">
+		{{ voice_and_tone_section }}
+		<hr class="border">
+		{{ color_section }}
+		<hr class="border">
+		{{ typography_section }}
+		<hr class="border">
+		{{ logo_section }}
+		<hr class="border">
+		{{ bookmarklet_section }}
+	</div>
 {% endblock %}
