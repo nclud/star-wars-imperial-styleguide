@@ -20,7 +20,7 @@ body{font-family:"Saira","Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;
 .tv canvas{height:100%;width:100%}
 header{max-width:64rem;position:relative;height:100vh;margin:0 auto 2.25rem;padding-top:2.25rem}
 header hr::before{content:" ";position:absolute;right:0;top:2rem;height:.625rem;background-color:#ccc;opacity:.4;width:45%}
-h1{font-size:1.5rem;margin-bottom:6rem;font-weight:400;color:#fff;text-transform:uppercase;text-shadow:0 0 .625em #fff,0 0 1.5625em #fff,-.0625em 0 .125em rgba(0,0,0,0.5)}
+h1{font-size:1.5rem;margin-bottom:8vh;font-weight:400;color:#fff;text-transform:uppercase;text-shadow:0 0 .625em #fff,0 0 1.5625em #fff,-.0625em 0 .125em rgba(0,0,0,0.5)}
 hr.border{border-top:.25rem solid #fff;display:block;max-width:64rem;-webkit-box-shadow:0 0 .625em #fff,0 0 1.5625em #fff,-.0625em 0 .125em rgba(0,0,0,0.5);box-shadow:0 0 .625em #fff,0 0 1.5625em #fff,-.0625em 0 .125em rgba(0,0,0,0.5)}
 svg{fill:currentColor}
 .svg{width:1em;height:1em;stroke:currentColor}
@@ -74,9 +74,12 @@ svg{fill:currentColor}
 @media(max-width:64em){body{padding-left:1rem;padding-right:1rem}
 .section{display:block;padding:0 2.25rem}
 .section .section-title,.section .section-content{width:auto}
-.color-section table{width:100%;margin-left:0}
+.color-section table{width:100%;margin-left:-1rem}
 .footer{padding-left:2.25rem}
-.endline{width:100vw;margin:0 calc(50% - 50vw)}
+.endline{width:98vw;margin:0 calc(50% - 50vw)}
+}@media(max-width:47.8125em){.nav{-webkit-transform:scale(0.55);-ms-transform:scale(0.55);transform:scale(0.55)}
+.nav a:nth-of-type(2){-webkit-transform:rotate(-50deg) translate(26vh) rotate(50deg);-ms-transform:rotate(-50deg) translate(26vh) rotate(50deg);transform:rotate(-50deg) translate(26vh) rotate(50deg)}
+.nav a:nth-of-type(6){-webkit-transform:rotate(195deg) translate(67vh) rotate(-195deg);-ms-transform:rotate(195deg) translate(67vh) rotate(-195deg);transform:rotate(195deg) translate(67vh) rotate(-195deg)}
 }@media(max-width:45em){.color-section .color-swatch{width:2.5rem;height:2.5rem}
 }@media(max-width:25em){.color-section table{margin-left:-2rem}
 .color-section .too-long{display:none}

@@ -83,5 +83,20 @@
 				drop-shadow(0 0 rem(3px) rgba($white, 0.7))
 				drop-shadow(0 0 rem(3px) rgba($white, 0.7));
     }
+}
 
+@media( max-width: em( 765px ) ) {
+	.nav {
+		transform: scale(0.55);
+
+		a {
+			&:nth-of-type(2) {
+				transform: rotate(-50deg) translate(26vh) rotate(50deg);
+			}
+
+			&:nth-of-type(6) {
+				transform: rotate(195deg) translate(67vh) rotate(-195deg);
+			}
+		}
+	}
 }
