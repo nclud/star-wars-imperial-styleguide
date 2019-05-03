@@ -1,7 +1,7 @@
 .nav {
     position: relative;
 	margin: rem(60px) auto;
-	height: 100vh;
+	height: 65vh;
 	font-family: $monospace;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -45,34 +45,34 @@
 			}
 
 		&:nth-of-type(1) {
-			transform: rotate(-90deg) translate(58vh) rotate(90deg);
-			margin-left: -18vh;
+			transform: rotate(-90deg) translate(38vh) rotate(90deg);
+			margin-left: -19vh;
 		}
 
 		&:nth-of-type(2) {
-			transform: rotate(-44deg) translate(50vh) rotate(44deg);
+			transform: rotate(-41deg) translate(32vh) rotate(41deg);
 		}
 
 		&:nth-of-type(3) {
-			transform: rotate(10deg) translate(37vh) rotate(-10deg);
+			transform: rotate(25deg) translate(28vh) rotate(-25deg);
 		}
 
 		&:nth-of-type(4) {
-			transform: rotate(93deg) translate(32vh) rotate(-93deg);
-			margin-lefT: -8vh;
+			transform: rotate(93deg) translate(31vh) rotate(-93deg);
+			margin-left: -12vh;
 		}
 
 		&:nth-of-type(5) {
-			transform: rotate(175deg) translate(52vh) rotate(-175deg)
+			transform: rotate(165deg) translate(45vh) rotate(-165deg);
 		}
 
 		&:nth-of-type(6) {
-			transform: rotate(203deg) translate(88vh) rotate(-203deg);
+			transform: rotate(195deg) translate(77vh) rotate(-195deg);
 		}
     }
 
     .svg-imperial-logo {
-		height: 80vh;
+		height: 65vh;
 		width: auto;
 
         font-size: rem(280px);
