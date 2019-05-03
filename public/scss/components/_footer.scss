@@ -27,6 +27,9 @@
 }
 
 @media( max-width: em(1024px) ) {
+	.footer {
+		padding: 0 rem( 36px );
+	}
 	.endline {
 		width: 100vw;
 		margin: 0 calc(50% - 50vw);
