@@ -20,7 +20,7 @@ body{font-family:"Saira","Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;
 .tv canvas{height:100%;width:100%}
 header{max-width:64rem;position:relative;margin:0 auto;padding-top:2.25rem}
 header hr::before{content:" ";position:absolute;right:0;top:2rem;height:.625rem;background-color:#ccc;opacity:.4;width:45%}
-h1{font-size:3.125rem;margin-bottom:6rem;font-weight:400;color:#fff;text-transform:uppercase;text-shadow:0 0 .625em #bc1e22,0 0 1.5625em #bc1e22,-.0625em 0 .125em rgba(0,0,0,0.5)}
+h1{font-size:1.5rem;margin-bottom:6rem;font-weight:400;color:#fff;text-transform:uppercase;text-shadow:0 0 .625em #fff,0 0 1.5625em #fff,-.0625em 0 .125em rgba(0,0,0,0.5)}
 hr.border{border-top:.25rem solid #fff;display:block;max-width:64rem;-webkit-box-shadow:0 0 .625em #fff,0 0 1.5625em #fff,-.0625em 0 .125em rgba(0,0,0,0.5);box-shadow:0 0 .625em #fff,0 0 1.5625em #fff,-.0625em 0 .125em rgba(0,0,0,0.5)}
 svg{fill:currentColor}
 .svg{width:1em;height:1em;stroke:currentColor}

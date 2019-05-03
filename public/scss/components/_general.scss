@@ -47,13 +47,13 @@ header {
 }
 
 h1 {
-	font-size: rem( 50px );
+	font-size: rem( 24px );
 	margin-bottom: rem( 96px );
 	font-weight: 400;
 	color: $white;
 	text-transform: uppercase;
 
-	@include neon-glow($imperial-red);
+	@include neon-glow($white);
 }
 
 hr.border {
