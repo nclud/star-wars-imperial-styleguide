@@ -7,20 +7,8 @@ $intro_section = $twig->render( 'intro-section.twig', $intro_context );
 $color_context = array(
 	'colors' => array(
 		array(
-			'hex'  => '#BC1E22',
-			'name' => 'Imperial Red',
-		),
-		array(
-			'hex'  => '#394A59',
-			'name' => 'Imperial Blue',
-		),
-		array(
 			'hex'  => '#64696C',
 			'name' => 'Durasteel Grey',
-		),
-		array(
-			'hex'  => '#556567',
-			'name' => 'Verdant Future Green',
 		),
 		array(
 			'hex'  => '#FFFFFF',
@@ -29,6 +17,18 @@ $color_context = array(
 		array(
 			'hex'  => '#000000',
 			'name' => 'Galaxy Black',
+		),
+		array(
+			'hex'  => '#394A59',
+			'name' => 'Coruscant Blue',
+		),
+		array(
+			'hex'  => '#BC1E22',
+			'name' => 'Imperial Red',
+		),
+		array(
+			'hex'  => '#556567',
+			'name' => 'Valor Green',
 		),
 	),
 );
