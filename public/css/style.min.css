@@ -31,7 +31,7 @@ svg{fill:currentColor}
 .nav a:nth-of-type(1){-webkit-transform:rotate(-90deg) translate(38vh) rotate(90deg);-ms-transform:rotate(-90deg) translate(38vh) rotate(90deg);transform:rotate(-90deg) translate(38vh) rotate(90deg);margin-left:-19vh}
 .nav a:nth-of-type(2){-webkit-transform:rotate(-41deg) translate(32vh) rotate(41deg);-ms-transform:rotate(-41deg) translate(32vh) rotate(41deg);transform:rotate(-41deg) translate(32vh) rotate(41deg)}
 .nav a:nth-of-type(3){-webkit-transform:rotate(25deg) translate(28vh) rotate(-25deg);-ms-transform:rotate(25deg) translate(28vh) rotate(-25deg);transform:rotate(25deg) translate(28vh) rotate(-25deg)}
-.nav a:nth-of-type(4){-webkit-transform:rotate(93deg) translate(31vh) rotate(-93deg);-ms-transform:rotate(93deg) translate(31vh) rotate(-93deg);transform:rotate(93deg) translate(31vh) rotate(-93deg);margin-left:-12vh}
+.nav a:nth-of-type(4){-webkit-transform:rotate(93deg) translate(31vh) rotate(-93deg);-ms-transform:rotate(93deg) translate(31vh) rotate(-93deg);transform:rotate(93deg) translate(31vh) rotate(-93deg);margin-left:-13vh}
 .nav a:nth-of-type(5){-webkit-transform:rotate(165deg) translate(45vh) rotate(-165deg);-ms-transform:rotate(165deg) translate(45vh) rotate(-165deg);transform:rotate(165deg) translate(45vh) rotate(-165deg)}
 .nav a:nth-of-type(6){-webkit-transform:rotate(195deg) translate(77vh) rotate(-195deg);-ms-transform:rotate(195deg) translate(77vh) rotate(-195deg);transform:rotate(195deg) translate(77vh) rotate(-195deg)}
 .nav .svg-imperial-logo{height:65vh;width:auto;font-size:17.5rem;display:block;margin:10vh auto;color:#fff;-webkit-filter:drop-shadow(0 0 .1875rem rgba(255,255,255,0.7)) drop-shadow(0 0 .1875rem rgba(255,255,255,0.7)) drop-shadow(0 0 .1875rem rgba(255,255,255,0.7));filter:drop-shadow(0 0 .1875rem rgba(255,255,255,0.7)) drop-shadow(0 0 .1875rem rgba(255,255,255,0.7)) drop-shadow(0 0 .1875rem rgba(255,255,255,0.7))}
@@ -67,8 +67,15 @@ svg{fill:currentColor}
 .svg-nclud-logo{font-size:3.125rem;margin-right:.5rem;-webkit-filter:drop-shadow(0 0 .1875rem rgba(255,255,255,0.7)) drop-shadow(0 0 .1875rem rgba(255,255,255,0.7)) drop-shadow(0 0 .1875rem rgba(255,255,255,0.7));filter:drop-shadow(0 0 .1875rem rgba(255,255,255,0.7)) drop-shadow(0 0 .1875rem rgba(255,255,255,0.7)) drop-shadow(0 0 .1875rem rgba(255,255,255,0.7))}
 .made-by{font-size:1.375rem;color:#fff;text-shadow:0 0 .625em #fff,0 0 1.5625em #fff,-.0625em 0 .125em rgba(0,0,0,0.5)}
 .endline{background-color:rgba(204,204,204,0.25);height:3rem;border:0 none;margin:0}
-@media(max-width:64em){.section{display:block;padding:0 2.25rem}
+@media(max-width:64em){body{padding-left:1rem;padding-right:1rem}
+.section{display:block;padding:0 2.25rem}
 .section .section-title,.section .section-content{width:auto}
+.color-section table{width:100%;margin-left:0}
+}@media(max-width:45em){.color-section th{font-size:1.3125rem}
+.color-section td{font-size:1rem}
+.color-section .color-swatch{width:2.5rem;height:2.5rem}
+}@media(max-width:25em){.color-section table{margin-left:-2rem}
+.color-section .too-long{display:none}
 }@-webkit-keyframes flicker{0%{opacity:0}
 50%{opacity:0}
 60%{opacity:1}

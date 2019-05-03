@@ -34,3 +34,41 @@
 		box-shadow: 0 rem( 2px ) rem( 8px ) rem( 1px ) rgba( $white, 0.1 );
 	}
 }
+
+@media ( max-width: em( 1024px ) ) {
+	.color-section {
+		table {
+			width: 100%;
+			margin-left: 0;
+		}
+	}
+}
+
+@media ( max-width: em( 720px ) ) {
+	.color-section {
+		th {
+			font-size: rem( 21px );
+		}
+
+		td {
+			font-size: rem( 16px );
+		}
+
+		.color-swatch {
+			width: rem( 40px );
+			height: rem( 40px );
+		}
+	}
+}
+
+@media ( max-width: em( 400px ) ) {
+	.color-section {
+		table {
+			margin-left: rem( -32px );
+		}
+
+		.too-long {
+			display: none;
+		}
+	}
+}

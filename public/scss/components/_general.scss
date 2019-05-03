@@ -64,3 +64,10 @@ hr.border {
 
 	@include box-glow( $white );
 }
+
+@media( max-width: em( 1024px ) ) {
+	body {
+		padding-left: rem( 16px );
+		padding-right: rem( 16px );
+	}
+}
