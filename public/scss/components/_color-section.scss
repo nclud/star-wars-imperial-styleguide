@@ -12,12 +12,12 @@
 	}
 
 	th {
-		font-size: rem( 28px );
+		font-size: rem( 16px );
 		text-align: left;
 		padding-bottom: rem(32px);
 		color: $white;
 
-		@include less-neon-glow( $white );
+		@include neon-glow( $white );
 
 		span {
 			text-transform: uppercase;
@@ -30,7 +30,7 @@
 	}
 
 	td {
-		font-size: rem( 24px );
+		font-size: rem( 16px );
 		vertical-align: middle;
 
 		@include neon-glow( $white );
@@ -55,14 +55,6 @@
 
 @media ( max-width: em( 720px ) ) {
 	.color-section {
-		th {
-			font-size: rem( 21px );
-		}
-
-		td {
-			font-size: rem( 16px );
-		}
-
 		.color-swatch {
 			width: rem( 40px );
 			height: rem( 40px );

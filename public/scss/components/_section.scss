@@ -66,11 +66,13 @@
 	.section-subhead {
 		text-transform: uppercase;
 		color: $white;
+		font-size: rem( 16px );
 		border: rem(1px) solid $white;
 		padding: rem(8px) rem(12px);
 		border-radius: rem( 4px );
 		margin-top: rem( 32px );
 
+		@include less-neon-glow( $white );
 		@include less-box-glow( $white );
 	}
 }
