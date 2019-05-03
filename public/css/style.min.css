@@ -75,7 +75,7 @@ svg{fill:currentColor}
 .section{display:block;padding:0 2.25rem}
 .section .section-title,.section .section-content{width:auto}
 .color-section table{width:100%;margin-left:0}
-.footer{padding:0 2.25rem}
+.footer{padding-left:2.25rem}
 .endline{width:100vw;margin:0 calc(50% - 50vw)}
 }@media(max-width:45em){.color-section .color-swatch{width:2.5rem;height:2.5rem}
 }@media(max-width:25em){.color-section table{margin-left:-2rem}
