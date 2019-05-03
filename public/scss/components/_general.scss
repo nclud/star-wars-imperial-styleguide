@@ -28,27 +28,38 @@ body {
 	}
 }
 
-h1 {
-	font-size: rem( 50px );
-	margin: rem( 36px ) auto rem( 96px );
-	border-top: rem( 4px ) solid $white;
-	padding-top: rem( 16px );
-	font-weight: 400;
-	color: $white;
+header {
 	max-width: rem( 1024px );
 	position: relative;
-	text-transform: uppercase;
+	margin: 0 auto;
+	padding-top: rem( 36px );
 
-	@include neon-glow($imperial-red);
-
-	&:before {
+	hr::before {
 		content: " ";
 		position: absolute;
 		right: 0;
-		top: rem( -14px );
+		top: rem( 32px );
 		height: rem( 10px );
 		background-color: #ccc;
 		opacity: 0.4;
 		width: 45%;
 	}
+}
+
+h1 {
+	font-size: rem( 50px );
+	margin-bottom: rem( 96px );
+	font-weight: 400;
+	color: $white;
+	text-transform: uppercase;
+
+	@include neon-glow($imperial-red);
+}
+
+hr.border {
+	border-top: rem(4px) solid $white;
+	display: block;
+	max-width: rem( 1024px );
+
+	@include box-glow( $white );
 }

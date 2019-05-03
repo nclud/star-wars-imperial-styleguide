@@ -4,11 +4,8 @@
 	justify-content: space-between;
 
 	max-width: rem( 1024px );
-	margin: rem( 60px ) auto;
+	margin: 0 auto rem( 60px );
 	padding: rem( 8px );
-
-	border-top: rem(4px) solid $white;
-	padding-top: rem(24px);
 
 	.section-title {
 		@include neon-glow( $imperial-red );
@@ -31,7 +28,8 @@
 			line-height: 1.9;
 			margin-bottom: rem( 14px );
 			color: $white;
-			// text-shadow: 0 0 rem( 6px ) rgba( $bright-imperial-blue, 0.7 );
+
+			@include neon-glow( $white );
 		}
 
 		ol,
