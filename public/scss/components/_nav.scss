@@ -17,6 +17,7 @@
 
 		font-size: 5vh;
 		padding: 1vh 1.5vh;
+		white-space: nowrap;
 
 		&::after {
 			content: "";
@@ -45,8 +46,8 @@
 			}
 
 		&:nth-of-type(1) {
-			transform: rotate(-90deg) translate(38vh) rotate(90deg);
-			margin-left: -19vh;
+			transform: rotate(-90deg) translate(38vh) rotate(90deg)
+			translateX( -50% );
 		}
 
 		&:nth-of-type(2) {
@@ -58,8 +59,8 @@
 		}
 
 		&:nth-of-type(4) {
-			transform: rotate(93deg) translate(31vh) rotate(-93deg);
-			margin-left: -13vh;
+			transform: rotate(93deg) translate(31vh) rotate(-93deg)
+			translateX( -50% );
 		}
 
 		&:nth-of-type(5) {
@@ -74,6 +75,7 @@
     .svg-imperial-logo {
 		height: 65vh;
 		width: auto;
+		max-width: 100%;
 
         font-size: rem(280px);
         display: block;
@@ -85,6 +87,31 @@
     }
 }
 
+@media( max-width: em( 1024px ) ) {
+	.nav {
+		transform: scale(0.7);
+	}
+}
+
+@media( max-width: em( 770px ) ) {
+	.nav {
+		transform: scale(0.6);
+	}
+}
+
+@media( max-width: em( 490px ) ) {
+	.nav {
+		transform: scale(0.45);
+	}
+}
+
+@media( max-width: em( 330px ) ) {
+	.nav {
+		transform: scale(0.35);
+	}
+}
+
+/*
 @media( max-width: em( 720px ) ) {
 	h1 {
 		margin-bottom: rem( 16px );
@@ -142,3 +169,4 @@
 		}
 	}
 }
+*/
