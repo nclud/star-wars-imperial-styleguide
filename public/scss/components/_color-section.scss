@@ -1,18 +1,16 @@
 .color-section {
 
 	table {
-		width: 130%;
-		margin-left: -15%;
 		margin-top: rem( 32px );
 	}
 
 	td,
 	th {
 		padding: rem( 8px ) rem(8px);
+		font-size: rem( 14px );
 	}
 
 	th {
-		font-size: rem( 16px );
 		text-align: left;
 		padding-bottom: rem(32px);
 		color: $white;
@@ -30,7 +28,6 @@
 	}
 
 	td {
-		font-size: rem( 16px );
 		vertical-align: middle;
 
 		@include neon-glow( $white );
@@ -44,6 +41,7 @@
 	}
 }
 
+/*
 @media ( max-width: em( 1024px ) ) {
 	.color-section {
 		table {
@@ -52,6 +50,7 @@
 		}
 	}
 }
+*/
 
 @media ( max-width: em( 720px ) ) {
 	.color-section {
@@ -64,10 +63,6 @@
 
 @media ( max-width: em( 400px ) ) {
 	.color-section {
-		table {
-			margin-left: rem( -32px );
-		}
-
 		.too-long {
 			display: none;
 		}
