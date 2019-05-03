@@ -40,7 +40,11 @@ $typography_section = $twig->render( 'typography-section.twig', $typography_cont
 $voice_and_tone_context = array();
 $voice_and_tone_section = $twig->render( 'voice-and-tone-section.twig', $voice_and_tone_context );
 
-$logo_context = array();
+$logo_context = array(
+	'red_logo_src'     => '/img/red-imperial-logo-on-white.jpg',
+	'white_logo_src'   => '/img/white-imperial-logo-on-black.jpg',
+	'glowing_logo_src' => '/img/white-glowing-imperial-logo-on-black.jpg',
+);
 $logo_section = $twig->render( 'logo-section.twig', $logo_context );
 
 $bookmarklet_context = array();

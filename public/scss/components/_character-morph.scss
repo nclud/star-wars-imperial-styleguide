@@ -9,7 +9,7 @@
 	font-family: $auretech;
 }
 
-.svg-imperial-logo {
+.nav .svg-imperial-logo {
 	opacity: 0;
 }
 
@@ -30,7 +30,7 @@
 		animation-iteration-count: 1;
 	}
 
-	.svg-imperial-logo {
+	.nav .svg-imperial-logo {
 		animation-duration: 3500ms;
 		animation-name: flicker;
 		animation-iteration-count: 1;
@@ -60,7 +60,7 @@
 
 .end-character-morph-animation {
 	.char span,
-	.svg-imperial-logo {
+	.nav .svg-imperial-logo {
 		opacity: 1;
 	}
 
