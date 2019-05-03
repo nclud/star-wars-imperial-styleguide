@@ -65,7 +65,7 @@ svg{fill:currentColor}
 .end-character-morph-animation .char::after{display:none}
 .footer{max-width:64rem;margin:0 auto 4.5rem}
 .svg-nclud-logo{font-size:3.125rem;margin-right:.5rem;-webkit-filter:drop-shadow(0 0 .1875rem rgba(255,255,255,0.7)) drop-shadow(0 0 .1875rem rgba(255,255,255,0.7)) drop-shadow(0 0 .1875rem rgba(255,255,255,0.7));filter:drop-shadow(0 0 .1875rem rgba(255,255,255,0.7)) drop-shadow(0 0 .1875rem rgba(255,255,255,0.7)) drop-shadow(0 0 .1875rem rgba(255,255,255,0.7))}
-.made-by{font-size:1.375rem;color:#fff;text-shadow:0 0 .625em #fff,0 0 1.5625em #fff,-.0625em 0 .125em rgba(0,0,0,0.5)}
+.made-by{font-size:1.375rem;color:#fff;text-shadow:0 0 .3125em #fff,-.0625em 0 .125em rgba(0,0,0,0.5)}
 .endline{background-color:rgba(204,204,204,0.25);height:3rem;border:0 none;margin:0}
 @media(max-width:64em){body{padding-left:1rem;padding-right:1rem}
 .section{display:block;padding:0 2.25rem}

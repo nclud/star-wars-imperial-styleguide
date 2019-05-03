@@ -16,7 +16,7 @@
 	font-size: rem( 22px );
 	color: $white;
 
-	@include neon-glow( $white );
+	@include less-neon-glow( $white );
 }
 
 .endline {
