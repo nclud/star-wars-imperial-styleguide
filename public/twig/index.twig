@@ -22,4 +22,16 @@
 	{{ color_section }}
 	{{ typography_section }}
 	{{ logo_section }}
+
+	<section class="section">
+		<h2 class="section-title">Bookmarklet</h2>
+		<div class="section-content">
+			<p class="grab-the-bookmarklet">
+				Drag this link to your bookmarks bar to take the Empire wherever you browse:
+				<a href='javascript:void function()%7Bvar e%3DMath.floor%3Bfunction a(a)%7Bvar b%3Ddocument.createElement("div")%3Breturn b.innerHTML%3Da,b.firstChild%7Dfunction b(a,b,c,d,e)%7Breturn c%2B(e-c)*((a-b)/(d-b))%7Dfunction c(a,c,d)%7Bfor(var f%3D%5B%5D,g%3Dd/50,h%3D1-.05*Math.random(),j%3D%5B%5D,l%3D0%3Bl<e(d/g)%2Bg%3Bl%2B%2B)j.push(e(15*Math.random()))%3Bfor(var m,l%3D0%3Bl<d%3Bl%2B%2B)m%3Db(l/g,e(l/g),j%5Be(l/g)%5D,e(l/g)%2B1,j%5Be(l/g)%2B1%5D),f.push(m)%3Bfor(var n%3Da.createImageData(c,d),l%3D0%3Bl<c*d%3Bl%2B%2B)%7Bvar o%3D4*l,k%3De(36*Math.random())%3Bk%2B%3Df%5Be(l/c)%5D,n.data%5Bo%5D%3Dn.data%5Bo%2B1%5D%3Dn.data%5Bo%2B2%5D%3Dk,n.data%5Bo%2B3%5D%3DMath.round(255*h)%7Dreturn n%7Dfunction d()%7Bk.putImageData(m%5Be(n)%5D,0,0),n%2B%3D20/50,n>%3Dm.length%26%26(n%3D0)%3Bvar a%3Dk.createLinearGradient(0,o,0,p%2Bo)%3Ba.addColorStop(0,"rgba(255,255,255,0)"),a.addColorStop(.1,"rgba(255,255,255,0)"),a.addColorStop(.2,"rgba(255,255,255,0.2)"),a.addColorStop(.3,"rgba(255,255,255,0.0)"),a.addColorStop(.45,"rgba(255,255,255,0.1)"),a.addColorStop(.5,"rgba(255,255,255,1.0)"),a.addColorStop(.55,"rgba(255,255,255,0.55)"),a.addColorStop(.6,"rgba(255,255,255,0.25)"),a.addColorStop(1,"rgba(255,255,255,0)"),k.fillStyle%3Da,k.fillRect(0,o,j.width,p%2Bo),k.globalCompositeOperation%3D"lighter",o%2B%3Dj.height/750,o>j.height%26%26(o%3D-(p/2)),window.requestAnimationFrame(d)%7Dvar f%3Dnew Date().getTime()/1e3,g%3Ddocument.querySelector("body")%3Bg.classList.add("imperial-styleguide-bookmarklet"),g.appendChild(a("<link rel%3D%5C"stylesheet%5C" href%3D%5C"https://imperialstyleguide.com/css/bookmarklet.css%3Ft%3D"%2Bf%2B"%5C" type%3D%5C"text/css%5C" media%3D%5C"all%5C"></link>")),g.insertBefore(a("<div class%3D%5C"neat-tv-static-screen-scan-effect%5C"><canvas id%3D%5C"neat-tv-static-screen-scan-effect%5C"></canvas></div>"),g.firstChild)%3Bvar h%3D%5B"darthvader","palpatine","stormtrooper"%5D%3Bdocument.querySelectorAll("img").forEach(function(a)%7Bvar b%3Da.width,c%3Da.height%3Bif(20<b)%7Bvar d%3Dh%5Be(Math.random()*h.length)%5D%3Ba.setAttribute("srcset",""),a.setAttribute("sizes",""),a.src%3D"https://i0.wp.com/www.facetheforce.today/"%2Bd%2B"%3Fresize%3D"%2Bb%2B","%2Bc%7D%7D)%3Bvar j%3Ddocument.querySelector("%23neat-tv-static-screen-scan-effect"),k%3Dj.getContext("gl")%7C%7Cj.getContext("2d"),l%3D2.5,m%3D%5B%5D,n%3D0,o%3D0,p%3D0%3Bwindow.onresize%3Dfunction()%7Bj.width%3Dj.offsetWidth/l,j.height%3Dj.width/(j.offsetWidth/j.offsetHeight),p%3Dj.offsetHeight/l/3,m%3D%5B%5D%3Bfor(var a%3D0%3Ba<10%3Ba%2B%2B)m.push(c(k,j.width,j.height))%7D,window.onresize(),window.requestAnimationFrame(d)%7D()%3B'>
+					Welcome to the Darkside
+				</a>
+			</p>
+		</div>
+	</section>
 {% endblock %}
