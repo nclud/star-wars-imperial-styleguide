@@ -6,9 +6,15 @@
 .svg-nclud-logo {
 	font-size: rem( 50px );
 	margin-right: rem( 8px );
+
+	filter: drop-shadow(0 0 rem(3px) rgba($white, 0.7))
+			drop-shadow(0 0 rem(3px) rgba($white, 0.7))
+			drop-shadow(0 0 rem(3px) rgba($white, 0.7));
 }
 
 .made-by {
 	font-size: rem( 22px );
 	color: $white;
+
+	@include neon-glow( $white );
 }

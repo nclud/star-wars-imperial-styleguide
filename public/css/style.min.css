@@ -63,8 +63,8 @@ svg{fill:currentColor}
 .end-character-morph-animation .char span,.end-character-morph-animation .svg-imperial-logo{opacity:1}
 .end-character-morph-animation .char::after{display:none}
 .footer{max-width:64rem;margin:0 auto 7.5rem}
-.svg-nclud-logo{font-size:3.125rem;margin-right:.5rem}
-.made-by{font-size:1.375rem;color:#fff}
+.svg-nclud-logo{font-size:3.125rem;margin-right:.5rem;-webkit-filter:drop-shadow(0 0 .1875rem rgba(255,255,255,0.7)) drop-shadow(0 0 .1875rem rgba(255,255,255,0.7)) drop-shadow(0 0 .1875rem rgba(255,255,255,0.7));filter:drop-shadow(0 0 .1875rem rgba(255,255,255,0.7)) drop-shadow(0 0 .1875rem rgba(255,255,255,0.7)) drop-shadow(0 0 .1875rem rgba(255,255,255,0.7))}
+.made-by{font-size:1.375rem;color:#fff;text-shadow:0 0 .625em #fff,0 0 1.5625em #fff,-.0625em 0 .125em rgba(0,0,0,0.5)}
 @media(max-width:64em){.section{display:block;padding:0 2.25rem}
 .section .section-title,.section .section-content{width:auto}
 }@-webkit-keyframes flicker{0%{opacity:0}
