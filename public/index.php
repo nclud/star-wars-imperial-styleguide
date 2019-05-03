@@ -43,6 +43,9 @@ $voice_and_tone_section = $twig->render( 'voice-and-tone-section.twig', $voice_a
 $logo_context = array();
 $logo_section = $twig->render( 'logo-section.twig', $logo_context );
 
+$bookmarklet_context = array();
+$bookmarklet_section = $twig->render( 'bookmarklet-section.twig', $bookmarklet_context );
+
 $context = array(
 	'logo'                   => get_svg( 'imperial-logo' ),
 	'intro_section'          => $intro_section,
@@ -50,6 +53,7 @@ $context = array(
 	'color_section'          => $color_section,
 	'typography_section'     => $typography_section,
 	'logo_section'           => $logo_section,
+	'bookmarklet_section'    => $bookmarklet_section,
 	'nclud_logo'             => get_svg( 'nclud-logo' ),
 );
 echo $twig->render( 'index.twig', $context );

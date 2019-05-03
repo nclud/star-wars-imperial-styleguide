@@ -52,13 +52,3 @@ h1 {
 		width: 45%;
 	}
 }
-
-.grab-the-bookmarklet {
-	a {
-		display: block;
-		color: $imperial-red;
-		font-size: rem( 36px );
-
-		@include neon-glow($imperial-red);
-	}
-}

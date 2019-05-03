@@ -24,7 +24,6 @@ body{font-family:"Saira","Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;
 .tv canvas{height:100%;width:100%}
 h1{font-size:3.125rem;margin:2.25rem auto 6rem;border-top:.25rem solid #fff;padding-top:1rem;font-weight:400;color:#fff;max-width:64rem;position:relative;text-transform:uppercase;text-shadow:0 0 .625em #bc1e22,0 0 1.5625em #bc1e22,-.0625em 0 .125em rgba(0,0,0,0.5)}
 h1:before{content:" ";position:absolute;right:0;top:-.875rem;height:.625rem;background-color:#ccc;opacity:.4;width:45%}
-.grab-the-bookmarklet a{display:block;color:#bc1e22;font-size:2.25rem;text-shadow:0 0 .625em #bc1e22,0 0 1.5625em #bc1e22,-.0625em 0 .125em rgba(0,0,0,0.5)}
 svg{fill:currentColor}
 .svg{width:1em;height:1em;stroke:currentColor}
 .nav{position:relative;margin:3.75rem auto;height:100vh;font-family:"Source Code Pro",monospace;font-weight:700;text-transform:uppercase}
@@ -51,6 +50,7 @@ svg{fill:currentColor}
 .color-section td{font-size:1.5rem;vertical-align:middle;padding:.5rem 0}
 .color-section .color-swatch{display:block;height:5rem;width:5rem;-webkit-box-shadow:0 .125rem .5rem .0625rem rgba(255,255,255,0.1);box-shadow:0 .125rem .5rem .0625rem rgba(255,255,255,0.1)}
 .typography-section .typographic-sample{font-family:"auretech";font-size:3rem;word-break:break-all}
+.grab-the-bookmarklet a{display:block;color:#bc1e22;font-size:2.25rem;text-shadow:0 0 .625em #bc1e22,0 0 1.5625em #bc1e22,-.0625em 0 .125em rgba(0,0,0,0.5)}
 .char span{opacity:0}
 .char::after{content:attr(data-char);position:absolute;opacity:1;font-family:"auretech"}
 .svg-imperial-logo{opacity:0}
