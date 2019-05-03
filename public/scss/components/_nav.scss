@@ -85,7 +85,7 @@
     }
 }
 
-@media( max-height: em( 720px ) ) {
+@media( max-width: em( 720px ) ) {
 	h1 {
 		margin-bottom: rem( 16px );
 	}
