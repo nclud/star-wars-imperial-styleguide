@@ -81,6 +81,7 @@ header hr::before{right:1rem}
 .endline{width:98vw;margin:0 calc(50% - 50vw)}
 }@media(max-width:48.125em){.nav{-webkit-transform:scale(0.6) translateY(-50%);-ms-transform:scale(0.6) translateY(-50%);transform:scale(0.6) translateY(-50%)}
 }@media(max-width:45em){.color-section .color-swatch{width:2.5rem;height:2.5rem}
+}@media(max-width:36.875em){.grab-the-bookmarklet a{font-size:1.5rem;padding-left:1.5rem;padding-right:1.5rem}
 }@media(max-width:30.625em){.nav{-webkit-transform:scale(0.45) translateY(-50%);-ms-transform:scale(0.45) translateY(-50%);transform:scale(0.45) translateY(-50%)}
 }@media(max-width:25em){.color-section .too-long{display:none}
 }@media(max-width:23.4375em){.nav{-webkit-transform:scale(0.33) translateY(-50%);-ms-transform:scale(0.33) translateY(-50%);transform:scale(0.33) translateY(-50%)}

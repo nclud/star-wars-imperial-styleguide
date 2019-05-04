@@ -15,3 +15,11 @@
 		@include less-box-glow($imperial-red);
 	}
 }
+
+@media( max-width: em( 590px ) ) {
+	.grab-the-bookmarklet a {
+		font-size: rem( 24px );
+		padding-left: rem( 24px );
+		padding-right: rem( 24px );
+	}
+}
