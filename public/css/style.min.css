@@ -26,8 +26,6 @@ svg{fill:currentColor}
 .svg{width:1em;height:1em;stroke:currentColor}
 .nav{position:relative;margin:3.75rem auto;height:65vh;font-family:"Source Code Pro",monospace;font-weight:700;text-transform:uppercase}
 .nav a{text-shadow:0 0 .625em #bc1e22,0 0 1.5625em #bc1e22,-.0625em 0 .125em rgba(0,0,0,0.5);position:absolute;color:#fff;top:50%;left:50%;text-align:center;font-size:5vh;padding:1vh 1.5vh;white-space:nowrap}
-.nav a::after{content:"";position:absolute;top:0;bottom:0;right:0;left:0;opacity:0;-webkit-box-shadow:0 0 1px #0f1567,0 0 2px #0f1567,0 0 6px #0f1567,inset 0 0 1px #0f1567,inset 0 0 2px #0f1567,inset 0 0 6px #0f1567;box-shadow:0 0 1px #0f1567,0 0 2px #0f1567,0 0 6px #0f1567,inset 0 0 1px #0f1567,inset 0 0 2px #0f1567,inset 0 0 6px #0f1567;border:.125rem solid #0f1567;-webkit-transition:opacity 300ms ease-in-out;-o-transition:opacity 300ms ease-in-out;transition:opacity 300ms ease-in-out}
-.nav a:hover::after,.nav a:focus::after{opacity:1}
 .nav a:nth-of-type(1){-webkit-transform:rotate(-90deg) translate(38vh) rotate(90deg) translateX(-50%);-ms-transform:rotate(-90deg) translate(38vh) rotate(90deg) translateX(-50%);transform:rotate(-90deg) translate(38vh) rotate(90deg) translateX(-50%)}
 .nav a:nth-of-type(2){-webkit-transform:rotate(-41deg) translate(32vh) rotate(41deg);-ms-transform:rotate(-41deg) translate(32vh) rotate(41deg);transform:rotate(-41deg) translate(32vh) rotate(41deg)}
 .nav a:nth-of-type(3){-webkit-transform:rotate(25deg) translate(28vh) rotate(-25deg);-ms-transform:rotate(25deg) translate(28vh) rotate(-25deg);transform:rotate(25deg) translate(28vh) rotate(-25deg)}
