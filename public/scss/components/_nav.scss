@@ -79,8 +79,14 @@
 	}
 }
 
+@media( max-width: em( 375px ) ) {
+	.nav {
+		transform: scale(0.33) translateY(-50%);
+	}
+}
+
 @media( max-width: em( 330px ) ) {
 	.nav {
-		transform: scale(0.35) translateY(-50%);
+		transform: scale(0.30) translateY(-50%);
 	}
 }

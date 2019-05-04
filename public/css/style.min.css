@@ -83,7 +83,8 @@ header hr::before{right:1rem}
 }@media(max-width:45em){.color-section .color-swatch{width:2.5rem;height:2.5rem}
 }@media(max-width:30.625em){.nav{-webkit-transform:scale(0.45) translateY(-50%);-ms-transform:scale(0.45) translateY(-50%);transform:scale(0.45) translateY(-50%)}
 }@media(max-width:25em){.color-section .too-long{display:none}
-}@media(max-width:20.625em){.nav{-webkit-transform:scale(0.35) translateY(-50%);-ms-transform:scale(0.35) translateY(-50%);transform:scale(0.35) translateY(-50%)}
+}@media(max-width:23.4375em){.nav{-webkit-transform:scale(0.33) translateY(-50%);-ms-transform:scale(0.33) translateY(-50%);transform:scale(0.33) translateY(-50%)}
+}@media(max-width:20.625em){.nav{-webkit-transform:scale(0.3) translateY(-50%);-ms-transform:scale(0.3) translateY(-50%);transform:scale(0.3) translateY(-50%)}
 }@-webkit-keyframes flicker{0%{opacity:0}
 50%{opacity:0}
 60%{opacity:1}
