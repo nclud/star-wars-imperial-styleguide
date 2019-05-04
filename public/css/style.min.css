@@ -55,7 +55,7 @@ svg{fill:currentColor}
 .logo-section img{display:block;margin:2rem auto;width:100%;height:auto}
 .logo-section .unacceptable{position:relative}
 .logo-section .unacceptable .svg-x{position:absolute;color:#bc1e22;stroke:#bc1e22;stroke-width:.1875rem;width:90%;height:90%;top:5%;left:5%;-webkit-filter:drop-shadow(0 0 .1875rem rgba(188,30,34,0.7)) drop-shadow(0 0 .1875rem rgba(188,30,34,0.7)) drop-shadow(0 0 .1875rem rgba(188,30,34,0.7));filter:drop-shadow(0 0 .1875rem rgba(188,30,34,0.7)) drop-shadow(0 0 .1875rem rgba(188,30,34,0.7)) drop-shadow(0 0 .1875rem rgba(188,30,34,0.7))}
-.grab-the-bookmarklet a{display:block;color:#bc1e22;font-size:2.25rem;text-shadow:0 0 .625em #bc1e22,0 0 1.5625em #bc1e22,-.0625em 0 .125em rgba(0,0,0,0.5)}
+.grab-the-bookmarklet a{display:block;color:#fff;font-size:2.25rem;font-weight:700;font-family:"Source Code Pro",monospace;text-transform:uppercase;margin-top:3rem;border:.125rem solid #bc1e22;padding:1rem 3rem;text-shadow:0 0 .625em #bc1e22,0 0 1.5625em #bc1e22,-.0625em 0 .125em rgba(0,0,0,0.5);-webkit-box-shadow:0 0 .625em #bc1e22,-.0625em 0 .125em rgba(0,0,0,0.5);box-shadow:0 0 .625em #bc1e22,-.0625em 0 .125em rgba(0,0,0,0.5)}
 .char span{opacity:0}
 .char::after{content:attr(data-char);position:absolute;opacity:1;font-family:"auretech"}
 .nav .svg-imperial-logo{opacity:0}

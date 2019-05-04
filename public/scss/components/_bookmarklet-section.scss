@@ -1,9 +1,17 @@
 .grab-the-bookmarklet {
 	a {
 		display: block;
-		color: $imperial-red;
+		color: $white;
 		font-size: rem( 36px );
+		font-weight: 700;
+		font-family: $monospace;
+		text-transform: uppercase;
+
+		margin-top: rem( 48px );
+		border: rem( 2px ) solid $imperial-red;
+		padding: rem( 16px ) rem( 48px );
 
 		@include neon-glow($imperial-red);
+		@include less-box-glow($imperial-red);
 	}
 }
